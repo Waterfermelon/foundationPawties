@@ -2,7 +2,7 @@
 
 body {
     background: lighten($almostWhite,5);
-    overflow-x: hidden;
+    
     
 }
 #nav-principal {
@@ -15,7 +15,7 @@ body {
   div {
     background-color: $almostWhite;
     margin-right: 10px;
-    padding: 5px 0 5px 0;
+    padding: 5px 5px 5px 0;
     border-radius: 7px;
   }
   ul {
@@ -87,7 +87,7 @@ article {
         padding: 20px;
         border: 3px solid $yellow;
         border-radius: 7px;
-        text-align: center;
+        text-align: right;
   
 
         h5 {
@@ -105,7 +105,66 @@ article {
             border-radius: 7px;
         }
     }
+
+  
 }
+
+$highlight: $primary-color;
+
+.responsive-blog-footer {
+  background: darken($dark-gray, 25%);
+  padding: 3rem 3rem;
+  color: white;
+  margin: 20px -10px -10px -10px;
+
+  h4 {
+    @media screen and (max-width: 39.9375em) {
+      font-size: 1.5rem;
+    }
+  }
+
+  p {
+    color: $dark-gray;
+  }
+
+  .mailing-list {
+    margin-bottom: 1.5rem;
+  }
+  .mailing-container {
+    margin-bottom: 2rem;
+  }
+
+  .about-section, .tag-section {
+    margin-bottom: 2rem;
+
+    a {
+      color: $highlight;
+    }
+  }
+
+  .subscribe-button {
+    background-color:$highlight;
+
+    &:hover {
+     background-color: darken($highlight, 5%);
+     transition: color 0.3s ease-in;
+    }
+  }
+
+  .fa-chevron-circle-up {
+    font-size: 3rem;
+    color: $dark-gray;
+
+     &:hover {
+     color: lighten($dark-gray, 15%);
+     transition: color 0.3s ease-in;
+    }
+  }
+}
+
+
+
+
 
 
 
