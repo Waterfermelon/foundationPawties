@@ -1,0 +1,10 @@
+@mixin banner {
+    width: 100%;
+    position: relative;
+    color: white;
+    .banner-contenido {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,49 @@
+@import "variables1";
+@import "mixins1" ;
+    
+
+#nav-principal {
+    background: $yellow;
+
+    ul {
+        color: $almostWhite;
+        background: $yellow;
+        width: 100%;
+    }
+
+    li {
+        color: $almostBlack;
+        background: $yellow;
+        float: left;
+        width: (100% / 5);
+        font-family: Arial;
+    }
+
+    a {
+        color: $almostBlack;
+        text-orientation: none;
+        text-decoration: none;
+        padding: 16px;
+        display: block;
+        text-align: left;
+        &:hover {
+            background: lighten($yellow,5);
+        }
+    }
+
+    
+}
+
+body{
+    background-color: $almostWhite;
+    font-family:s 
+}
+
+img{
+border:5px solid $green
+}
+
+.banner-superior {
+    @include banner;
+    text-align: center;
+}

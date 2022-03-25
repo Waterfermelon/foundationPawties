@@ -1,0 +1,159 @@
+body {
+  font-family: arial;
+  background: #f8f9fb;
+}
+
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#nav-principal {
+  background: #86042d;
+}
+#nav-principal ul {
+  width: 100%;
+}
+#nav-principal li {
+  float: left;
+  width: 20%;
+}
+#nav-principal a {
+  color: #f8f9fb;
+  text-orientation: none;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+  text-align: center;
+}
+#nav-principal a:hover {
+  background: #9f0535;
+}
+#nav-principal::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section h1 {
+  margin: 40px 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #86042d;
+  font-size: 24px;
+}
+
+.banner-superior {
+  width: 100%;
+  position: relative;
+  color: white;
+  text-align: right;
+}
+.banner-superior .banner-contenido {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+.banner-superior img {
+  width: 100%;
+}
+.banner-superior span {
+  font-size: 46px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.banner-superior span.subtitulo {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+#productos {
+  margin-bottom: 60px;
+}
+#productos li {
+  float: left;
+  width: 33.3333333333%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+#productos img {
+  width: 60%;
+  margin: 20px 20%;
+}
+#productos a {
+  text-decoration: none;
+  color: #86042d;
+  font-weight: bold;
+}
+#productos a:hover {
+  color: #04865d;
+}
+#productos::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.banner-productos {
+  width: 100%;
+  position: relative;
+  color: white;
+  text-align: left;
+}
+.banner-productos .banner-contenido {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+.banner-productos img {
+  width: 100%;
+}
+.banner-productos span {
+  font-size: 46px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.banner-productos span.subtitulo {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.banner-productos li {
+  text-transform: uppercase;
+  font-size: 20px;
+  max-width: 500px;
+  margin: 60px 0;
+}
+
+#clientes li {
+  float: left;
+  width: 18.4%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+#clientes li img {
+  width: 100%;
+}
